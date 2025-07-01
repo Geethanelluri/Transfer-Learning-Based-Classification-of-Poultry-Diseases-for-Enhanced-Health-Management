@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ disease }} - Details</title>
+</head>
+<body>
+    <h1>{{ disease }} - Details</h1>
+
+    <p>
+        {% if disease == 'Salmonella' %}
+            Salmonella is a bacterial disease that can affect poultry and cause symptoms such as diarrhea, poor appetite, and weakness. It spreads via contaminated food and water.
+        {% elif disease == 'New Castle Disease' %}
+            New Castle Disease is a serious viral infection that affects the respiratory, nervous, and digestive systems. Vaccination is critical for prevention.
+        {% elif disease == 'Coccidiosis' %}
+            Coccidiosis is caused by protozoan parasites and leads to bloody diarrhea, weight loss, and death in severe cases. It thrives in unsanitary conditions.
+        {% elif disease == 'Healthy' %}
+            A healthy bird has bright eyes, clean feathers, normal appetite, and good egg production. Good nutrition and hygiene prevent most diseases.
+        {% else %}
+            No detailed information available.
+        {% endif %}
+    </p>
+
+    <a href="/blog">← Back to Blog</a>
+</body>
+</html>
