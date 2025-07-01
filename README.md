@@ -48,5 +48,5 @@ Streamlit team for the awesome framework
 TensorFlow/Keras for model training
 Open datasets for poultry disease images
 "# Classification-of-Poultry-Diseases"
-Contact:
+# Contact:
 Nelluri Geetha  St.Ann's college of engineering and technology
